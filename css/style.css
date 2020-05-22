@@ -1,0 +1,117 @@
+.navdec {
+  background-color: #fece00;
+  height: 8%;
+  color: #fece00;
+}
+
+.navdec a {
+  color: white;
+  font-size: 15x;
+  font-weight: 500;
+  height: 20;
+}
+
+/* .navdec ul {} */
+
+/*Why */
+
+/* .why {} */
+
+/* For Image Grid*/
+
+.irow {
+  display: -ms-flexbox;
+  /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap;
+  /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.icolumn {
+  -ms-flex: 50%;
+  /* IE10 */
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 4px;
+}
+
+.icolumn iimg {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .icolumn {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .icolumn {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/* FOr Faq */
+
+.faq {
+  background-color: #fece00;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+}
+
+.faq:hover {
+  border: none;
+}
+
+.faqcontent {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  color: black;
+}
+
+.faqdiv {
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  text-align: center;
+  font-size: 35px;
+  font-weight: bolder;
+  color: #fece00;
+}
+
+.footer {
+  background: #fece00;
+  color: black;
+  width: 100%;
+}
+
+footer a {
+  color: black;
+}
+
+footer a:hover {
+  color: black;
+}
+
+.footer li {
+  color: black;
+}
+
+.tnc {
+  color: aqua;
+}
